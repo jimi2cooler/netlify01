@@ -11,10 +11,10 @@
   <div id="naver_id_login"></div>
   <!-- //네이버아이디로로그인 버튼 노출 영역 -->
   <script type="text/javascript">
-  	var naver_id_login = new naver_id_login("_E_diySDHk4_SUOIrT_j", "YOUR_CALLBACK_URL");
+  	var naver_id_login = new naver_id_login("_E_diySDHk4_SUOIrT_j", "https://jimi2cool.netlify.app/navercallback.html");
   	var state = naver_id_login.getUniqState();
   	naver_id_login.setButton("white", 2,40);
-  	naver_id_login.setDomain("YOUR_SERVICE_URL");
+  	naver_id_login.setDomain("https://jimi2cool.netlify.app");
   	naver_id_login.setState(state);
   	naver_id_login.setPopup();
   	naver_id_login.init_naver_id_login();
